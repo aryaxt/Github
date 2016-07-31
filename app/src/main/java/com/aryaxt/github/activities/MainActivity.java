@@ -16,7 +16,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,7 +24,7 @@ import retrofit2.Response;
 
 public class MainActivity extends BaseActivity {
 
-    @Bind(R.id.fab)
+    @BindView(R.id.fab)
     FloatingActionButton floatingActionButton;
     @Inject
     GithubService githubService;
